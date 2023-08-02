@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+main {
+    margin: 5px;
+
+}
+
+header {
+background-color: #ffca3a;
+padding: 30px;
+display: flex;
+align-items: center;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+}
+
+.carrinho {
+    margin-left: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Cartao {
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+button {
+    background-color: #ffca3a;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #ffca3a;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 550px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+footer p {
+    color: black;
+    text-shadow: 3px 2px 3px gray;
+}
+
+
+img {
+    height: 9vh;
+    position: absolute;
+}
+
+.form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    margin-bottom: 5px;
+  }
+
+  .form-group button {
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 171px;
+  }
+
+  h2 {
+    text-shadow: 3px 2px 3px gray;
+  }
+
+  p {
+    text-shadow: 3px 2px 3px gray
+  }

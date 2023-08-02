@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="carrinho.png" alt="Meu carrinho">
+    <span class="carrinho">Carrinho</span>
+  </header>
+
+  <main>
+
+
+    <p> <b>Produto desejado</b> </p>
+    <ul>
+      <li>Preencha com seu nome</li>
+      <li>Preencha com seu email</li>
+      <li>Clice no botao "submit" e conclua sua compra</li>
+    </ul>
+    <h2> Checkout </h2>
+
+    <select id="Cartao" name="Cartao">
+      <option value="product1">Cartao Nacional</option>
+      <option value="product2">Cartao Internacional</option>
+      <option value="product3">Pix</option>
+    </select><br>
+
+
+
+    <form>
+
+      <div class="form-group">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <button id="submitButton">Submit</button>
+      </div>
+    </form>
+  </main>
+  <footer>
+    <p> <u>Made by Reis</u></p>
+  </footer>
+</body>
+
+</html>
